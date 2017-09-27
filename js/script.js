@@ -1,9 +1,9 @@
 
 // Triangle Area - JS
 
-var triangle1Area = getTriangleArea(15,6);
-var triangle2Area = getTriangleArea(10,1);
-var triangle3Area = getTriangleArea(1,1);
+var triangle1Area = calculate(15,6);
+var triangle2Area = calculate(10,1);
+var triangle3Area = calculate(1,1);
 
 function getTriangleArea(a, h) {
 	if (a <= 0 || h <= 0) {
